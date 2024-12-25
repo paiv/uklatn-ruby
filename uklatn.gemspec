@@ -1,12 +1,14 @@
 Gem::Specification.new do |s|
     s.name = 'uklatn'
-    s.version = '1.13.1'
+    s.version = '1.20.0'
     s.license = 'MIT'
     s.summary = 'Ukrainian Cyrillic transliteration to Latin script'
     s.description = <<~EOS
+    Ukrainian Cyrillic transliteration to Latin script.
+
     Ukraine national transliteration schemes:
-    - DSTU 9112:2021,
-    - KMU 55:2010 (not reversible)
+      - DSTU 9112:2021,
+      - KMU 55:2010 (not reversible)
     EOS
     s.author = 'Pavlo Ivashkov'
     s.homepage = 'https://github.com/paiv/uklatn'
